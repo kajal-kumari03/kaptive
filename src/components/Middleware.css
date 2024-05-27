@@ -1,0 +1,46 @@
+/* App.css */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toolbar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .view {
+    margin-right: 20px;
+  }
+  
+  .period {
+    margin-right: 20px;
+  }
+  
+  .settings {
+    margin-right: 0;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  input[type="date"] {
+    margin-right: 10px;
+  }
+  
+  select {
+    margin-right: 10px;
+  }
+  

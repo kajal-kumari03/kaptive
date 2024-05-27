@@ -1,0 +1,129 @@
+.container {
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    padding: 20px;
+    box-shadow: none;
+    border: none;
+    background-color: white;
+    height: 50px;
+    margin-top: -5pxpx;
+   
+  }
+  
+  .buttons1 {
+    display: hide;
+    margin-top: -112px;
+    gap: 15px;
+   align-items: center;
+   height: 10px;
+  }
+  .buttons2 {
+    display:hide;
+    gap: 15px;
+   margin-left: 20px;
+   margin-top: -112px;
+   align-items: center;
+   height: 10px;
+  }
+
+  .button2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #f0f0f0; 
+
+  }
+  
+  .imgdiv{
+    display: none;
+    width: 1vh;
+    height: 1vh;
+  }
+  
+
+  @media (max-width: 600px) {
+    .imgdiv{
+      display: flex;
+      justify-content:space-between;
+      
+    }
+  .container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .buttons1, .buttons2 {
+   display: none;
+  }
+
+  .buttons2 {
+    margin-left: 0;
+  }
+
+  .button {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .image {
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 900px){
+  .imgdiv{
+    display: flex;
+    justify-content:space-between;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 40px;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .buttons1, .buttons2 {
+   display: none;
+  }
+
+  .buttons2 {
+    margin-left: 0;
+  }
+
+  .button {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .image {
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+}
